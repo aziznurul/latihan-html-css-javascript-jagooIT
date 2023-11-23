@@ -8,32 +8,32 @@
     <link rel="stylesheet" href="css/Q7.css" />
 </head>
   <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #0db2fd"
+    >
     <div class="container">
-        <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><b>JagooIT Film</b></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link"  href="index.html">Beranda</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="listfilm.html">List Film</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
-        </header>
+      <a class="navbar-brand" href="#"><b>JagooIT Film</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="listfilm.html">List Film</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+    </nav>
+
     <div class="container">
 
         <div class="movie-container">
@@ -67,8 +67,8 @@
               <div class="col col-lg-1 place mx-auto unbooked seat"> A3</div>
               <div class="col col-lg-1 place mx-auto unbooked seat"> A4</div>
               <div class="col col-lg-1 place mx-auto unbooked seat"> A5</div>
-        
             </div>
+
             <div class="row">
               <div class="col col-lg-1 place mx-auto unbooked seat">B1</div>
               <div class="col col-lg-1 place mx-auto unbooked seat">B2</div>
@@ -84,9 +84,35 @@
               <div class="col col-lg-1 place mx-auto taken occupied seat">C4</div>
               <div class="col col-lg-1 place mx-auto unbooked seat">C5</div>
             </div>
+
+            <div class="row">
+              <div class="col col-lg-1 place mx-auto unbooked seat">D1</div>
+              <div class="col col-lg-1 place mx-auto unbooked seat">D2</div>
+              <div class="col col-lg-1 place mx-auto taken occupied seat">D3</div>
+              <div class="col col-lg-1 place mx-auto taken occupied seat">D4</div>
+              <div class="col col-lg-1 place mx-auto unbooked seat">D5</div>
+            </div>
+
+            <div class="row">
+              <div class="col col-lg-1 place mx-auto unbooked seat"> E1</div>
+              <div class="col col-lg-1 place mx-auto unbooked seat"> E2</div>
+              <div class="col col-lg-1 place mx-auto unbooked seat"> E3</div>
+              <div class="col col-lg-1 place mx-auto unbooked seat"> E4</div>
+              <div class="col col-lg-1 place mx-auto unbooked seat"> E5</div>
+            </div>
         
           </div>
     </div>
+    <footer style="background-color: #0db2fd; bottom: 0px;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        height:50px;
+        line-height:50px;
+        padding-left: 10px;
+      " class="text-center pb-3">
+        <p class="fw-bold text-white">Created JagooIT Film</p>
+      </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
